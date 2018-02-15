@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.top-left-text {
+  font-size: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.part {
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4faf8;
+  height: 60px;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+#company-logo {
+  height: 35%;
+  width: 35%;
+  min-width: 20%;
+  background-image: url('barbiere-logo-light.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin: 20px;
+}
+
+#splash-container {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('shopwall.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+#splash-container button {
+  width: 20%;
+  min-width: 200px;
+  padding: 20px;
+  font-size: 1.3em;
+  border: none;
+  background-color: #f4faf8;
+  cursor: pointer;
+}
+
+#splash-container button:hover {
+  background-color: black;
+  color: #f4faf8;
+}
+
+#definition-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E9F2EE;
+  padding: 40px;
+}
+
+#about-section {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#about-section-level-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+#about-section-level-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
